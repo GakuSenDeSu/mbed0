@@ -18,7 +18,7 @@ int main()
        wait(0.2f);
        }
        //green LED blink for 2 times
-       for (int i=0; i<2; ++i) {
+       for (int i=0; i<4; ++i) {
        greenLED=!greenLED;
        wait(0.2f);
        }
